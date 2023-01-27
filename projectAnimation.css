@@ -1,0 +1,60 @@
+@keyframes showProject1{
+  100% {transform: translate(3rem,20rem);}
+ }
+
+ @keyframes showProject3{
+   100% {transform: translate(10rem);}
+ }
+ @keyframes showProject4{
+   100% {transform: translate(-8rem, 0px);}
+ }
+ @keyframes closeProject1{
+   0% {transform: translate(3rem,20rem);}
+   100% {transform: translate(-0px,-0px);}
+ }
+ 
+ @keyframes closeProject3{
+   0% {transform: translate(10rem);}
+   100% {transform: translate(-0px);}
+ }
+ @keyframes closeProject4{
+   0% {transform: translate(-8rem, 0px);}
+   100% {transform: translate(0px);}
+ }
+ .project1{
+   animation-name: showProject1;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
+ }
+ .project3{
+   animation-name: showProject3;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
+ }
+ .project4{
+   animation-name: showProject4;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
+ }
+ .closeProject1{
+   animation-name: closeProject1;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
+ }
+ .closeProject3{
+   animation-name: closeProject3;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
+ }
+ .closeProject4{
+   animation-name: closeProject4;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
+ }
+ 

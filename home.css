@@ -1,0 +1,78 @@
+body{
+  height: 100vh;
+
+  margin: 1rem;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.795);
+  background: linear-gradient(to top right, rgb(0, 0, 0), rgb(83, 82, 82));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav{
+  
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+#projectHolder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonHolder{
+  height: 3rem;
+}
+button{
+  border-radius: 5px;
+}
+button:hover{
+  height: 2rem;
+}
+#projectHolder div{
+  height: 13rem;
+  width: 15rem;
+  position: absolute;
+  left: 41%;
+  top: 25%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#project1{
+  background-color: green;
+  rotate: -5deg;
+}
+#project1 section{
+  display: none;
+}
+
+#project3{
+  background-color: rgb(204, 255, 0);
+  rotate: 15deg;
+}
+#project3 section{
+  display: none;
+}
+#project4{
+  background-color: rgb(203, 13, 150);
+  rotate: -2deg;
+}
+#project4 section{
+  display: none;
+}
+
+.project1:hover, .project2:hover, .project3:hover, .project4:hover{
+  background-color: beige;
+  
+  box-shadow: 5px 5px 5px;
+}
+#project1:hover > section{
+  display: block;
+}
+#project3:hover > section{
+  display: block;
+}
+#project4:hover > section{
+  display: block;
+}
