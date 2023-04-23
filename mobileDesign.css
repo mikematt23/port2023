@@ -6,7 +6,7 @@
      100% {transform: translate(2rem,15rem);}
    }
    @keyframes showProject4{
-     100% {transform: translate(4rem, 27rem);}
+     100% {transform: translate(-4rem, 27rem);}
    }
    @keyframes closeProject1{
      0% {transform: translate(1rem,1rem);}
