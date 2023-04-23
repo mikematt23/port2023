@@ -1,20 +1,27 @@
 body{
   height: 100vh;
   font-family: 'Poppins', sans-serif;
-  margin: 1rem;
+  margin: 0;
   padding: 0;
   background: rgba(0, 0, 0, 0.795);
   background: linear-gradient(to top right, rgb(0, 0, 0), rgb(83, 82, 82));
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://austinot.com/wp-content/uploads/2016/08/Austin-Nightlife-Activities.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ -webkit-overflow-scrolling: touch;
+}
+img{
+  width: 50%;
 }
 nav{
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
-nav h2{
+h2{
   color: yellow;
 }
 #projectHolder{
@@ -38,7 +45,7 @@ button:hover{
   width: 15rem;
   position: absolute;
   left: 41%;
-  top: 25%;
+  top: 36%;
   text-align: center;
   border-radius: 5px;
   overflow: scroll;
