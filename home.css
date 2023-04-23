@@ -21,8 +21,12 @@ nav{
   width: 80%;
   justify-content: space-between;
 }
-h2{
+nav h2{
   color: yellow;
+}
+.quote{
+  color: yellow;
+  margin: .3rem 4rem .2rem 5rem;
 }
 #projectHolder{
   display: flex;
@@ -34,11 +38,14 @@ h2{
   height: 3rem;
 }
 button{
+  background-color: rgba(255, 255, 0, 0);
+  color: yellow;
+  border: 1px solid yellow;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
 }
 button:hover{
-  height: 2rem;
+  background-color: rgba(255, 255, 0, 0.504);
 }
 #projectHolder div{
   height: 13rem;
@@ -55,7 +62,7 @@ button:hover{
 }
 
 #project1{
-  background-color: green;
+  background-color: rgba(204, 255, 0, 0.815);
   rotate: -5deg;
 }
 #project1 section{
@@ -63,15 +70,15 @@ button:hover{
 }
 
 #project3{
-  background-color: rgb(204, 255, 0);
+  background-color: rgba(204, 255, 0, 0.815);
   rotate: 15deg;
 }
 #project3 section{
   display: none;
 }
 #project4{
-  background-color: rgb(203, 13, 150);
-  rotate: -2deg;
+  background-color: rgba(204, 255, 0, 0.815);
+  rotate: -8deg;
 }
 #project4 section{
   display: none;
