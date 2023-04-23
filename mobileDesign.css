@@ -32,7 +32,7 @@
     align-items: center;
     background-image: url(https://austinot.com/wp-content/uploads/2016/08/Austin-Nightlife-Activities.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     overflow: scroll;
   -webkit-overflow-scrolling: touch;
   }
